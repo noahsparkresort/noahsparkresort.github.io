@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <bold><title>NOAH'S PARK POOL</title></bold>
+    <link rel="stylesheet" href="./css/style1.css">
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+  </head>
+  <body>
+  <a name="topPage"></a>
+  <a href="#topPage"><img src="./img/arrow.png" id="top"></a>
+  <div class="topnav" id="myTopnav">
+      <a href="/" class="active topnav-logo">
+        <img src="./img/NPR_Logo_200x2000.png">
+      </a>
+    <div class="right">
+      <a href="/">HOME</a>
+      <a href="#POOLS">POOLS</a>
+      <a href="#FACILITIES">FACILITIES</a>
+      <a href="#RATES">RATES</a>
+      <a href="#CONTACT">CONTACT US</a>
+    </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+</div>
+    <div class="clearfix"></div>
+
+    <div class="slideshow-container">
+
+        <a href="https://www.youtube.com/watch?v=qJnhYXaCD64" class="fa fa fa-play play-button"></a>
+
+        <div class="centered-text1">
+        WELCOME TO
+        </div>
+        <div class="centered-text">
+            NOAH'S PARK RESORT
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./img/LP.JPG" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./img/LP.JPG" style="width:100%">
+        </div>
+
+    </div>
+<br>
+
+<div style="text-align: center;position: relative;z-index: 11;margin-top: -57px;">
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+<br>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+<style>
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+    <div class="clearfix"></div>
+    <section class="newsletter">
+      <div class="container">
+        <center><p>
+        On the northernmost tip of Rizal province, lies the town of Rodriguez in no place closer to
+        the urban jungle that the tourism slogan "It's more fun rings truer than in this sleepy urban
+        municipality. Atop the slopes of the Sierra Madre mountain range, nestled here are a series
+        of resorts that offer the quickest escape from the hustle and bustle of Metro Manila
+         <br>
+         <br>
+        But one resort stands out from the rest. It's more than just fun in Noah's Park
+        </p> </center>
+      </div>
+      <a name="POOLS"></a>
+    </section>
+
+<section class="newsletter1">
+      <div class="container">
+        <b><center><h2>POOLS</h2></center></b>
+        <center><p>
+        On Noah's Park boasts of seven different pools that would tickle anyone's fancy
+        From shallow pools to meet every toddler's delight to a disco pool fit for the
+        kids at heart. Having a wide variety of choices means there's room for
+        everyone at Noah's Park
+        </p> </center>
+      </div>
+</section>
+
+<!-- LIST OF POOLS -->
+<div class="col-6">
+    <div class="img-container">
+    <img src="./img/LPC.jpg" alt="Love">
+    <div class="bottom-left">
+    <h3>BUCKET POOL</h3>
+    <p>Enjoy being drenched with cool water without the need to be challenged! Loved by kids and adults alike even underwater because of it's floor design</p>
+    </div>
+  </div>
+</div>
+ <div class="col-6">
+      <div class="img-container">
+    <img src="./img/NPR-83.JPG" alt="Love">
+    <div class="bottom-left">
+    <h3>WAVE POOL</h3>
+    <p>Love at first sight! Stationed near the entrance, This section will welcome you with the relaxing sound of the waves hitting the walls of the two pools to serve.</p>
+    </div>
+  </div>
+</div>
+<div class="clearfix"></div>
+ <div class="col-4">
+    <div class="img-container">
+    <img src="./img/NPR-65.JPG" alt="Love">
+    <div class="bottom-left">
+    <h3> GARDEN POOL</h3>
+    <p>This one is for adults. A bit deeper than the others, it's cool dark blue color and shaded area soothes and relaxes thos in need some peace and quiet</p>
+    </div>
+  </div>
+</div>
+ <div class="col-4">
+      <div class="img-container">
+    <img src="./img/NPR-42.JPG" alt="Love">
+    <div class="bottom-left">
+    <h3>ROCK POOL</h3>
+    <p>Inspired by one Montalban's wonders, This pool patterned it's design to the white rocks of wawa Which will sure makes everyone feel one with nature.</p>
+    </div>
+  </div>
+</div>
+<div class="col-4">
+      <div class="img-container">
+    <img src="./img/NPR-21.JPG" alt="Love">
+    <div class="bottom-left">
+    <h3>SLIDE POOL</h3>
+    <p>If you are in need of speed you should try travelling down any of our sides. All guest will have the choice to be dropped in the kid-friendly or adventurous sections of the pool.</p>
+    </div>
+  </div>
+</div>
+<div class="clearfix"></div>
+<div class="col-6">
+    <div class="img-container">
+    <img src="./img/NPR-74.JPG" alt="Love">
+    <div class="bottom-left">
+    <h3>DISCO POOL</h3>
+    <p>One of the upcoming features of the resort, this party place can be reserved by guests who prefer to swim and have fun with their friends at night.</p>
+    </div>
+  </div>
+</div>
+ <div class="col-6">
+      <div class="img-container">
+    <img src="./img/NPR-49.JPG" alt="Love">
+    <div class="bottom-left">
+    <h3>PRIVATE POOL</h3>
+    <p>This area is can be used by groups preferring to reserve an entire pool only for its
+    members. It can accommodate 100 people and offer cottages within the secluded</p>
+    </div>
+  </div>
+  <a name="FACILITIES"></a>
+</div>
+<div class="clearfix"></div>
+<!-- LIST OF FACILITIES -->
+
+<div class="col-5">
+
+    <section class="newsletter1 facility">
+      <div class="container">
+        <b><center><h2>FACILITIES</h2></center></b>
+        <center><p>
+        On Noah's Park boasts of seven different pools that would tickle anyone's fancy
+        From shallow pools to meet every toddler's delight to a disco pool fit for the
+        kids at heart. Having a wide variety of choices means there's room for
+        everyone at Noah's Park
+        </p> </center>
+      </div>
+</section>
+
+
+</div>
+ <div class="col-7">
+      <div class="img-container">
+    <img src="./img/NPR-153.JPG" alt="Love">
+    <div class="bottom-left">
+    <h3 class="green">HOTEL</h3>
+    <p>The hotel can provide a pleasurable stay for almost any function you need. Rooms can be selected whether you are staying alone, with someone, or with your group of ten</p>
+    </div>
+  </div>
+</div>
+<div class="clearfix"></div>
+<div class="col-8">
+    <div class="img-container">
+    <img src="./img/NPR-68.JPG" alt="Love">
+    <div class="bottom-left">
+    <h3 class="green">CONDOTEL</h3>
+    <p>A happy bunch of 6 to 10 preferring their own lodging for an overnight stay would fancy the Condotel Complete with is own kitchen and shared batharca, friends con better enjoy each other's company</p>
+    </div>
+  </div>
+</div>
+ <div class="col-4">
+      <div class="img-container">
+    <img src="./img/NPR-6.JPG" alt="Love">
+    <div class="bottom-left">
+    <h3 class="green">CONFERENCE ROOMS</h3>
+    <p>Companies can break the dull monotony of office meetings by
+      hostingseminars, trainings and conferences in halls that
+      accommodate up to 100 people</p>
+    </div>
+  </div>
+</div>
+<div class="clearfix"></div>
+<div class="col-4">
+    <div class="img-container">
+    <img src="./img/NPR-72.JPG" alt="Love">
+    <div class="bottom-left">
+    <h3 class="green">FUNCTION ROOMS</h3>
+    <p>Gather your family and close friends for reunions and stay in the
+      parks different pavilions. Family occasions and gatherings are
+      What we do best in Noah's Park Resort. Mox swimming in our pools
+      with bonding and dining in the pavilions, it is the perfect formula for fun</p>
+    </div>
+  </div>
+</div>
+ <div class="col-8">
+      <div class="img-container">
+    <img src="./img/IMG_7420.JPG" alt="Love">
+    <div class="bottom-left">
+    <h3 class="green">TEAM BUILDING FACILITIES</h3>
+    <p>Equipped with sale amenities and qualified personnel the area also offers zipline, 150-meter long
+    hanging bridge, rock climbing and rapelling facilities
+</p>
+    </div>
+  </div>
+  <a name="RATES"></a>
+</div>
+<div class="clearfix"></div>
+
+<section class="newsletter">
+      <div class="container">
+        <center>
+       <h2>RATES</h2>
+        <p>
+        On the northernmost tip of Rizal province, lies the town of Rodriguez in no place closer to
+        the urban jungle that the tourism slogan "It's more fun rings truer than in this sleepy urban
+        municipality. Atop the slopes of the Sierra Madre mountain range, nestled here are a series
+        of resorts that offer the quickest escape from the hustle and bustle of Metro Manila
+         <br>
+         <br>
+        But one resort stands out from the rest. It's more than just fun in Noah's Park
+        </p> </center>
+        <a href="./img/Noah's-Park-Resort-Rates.pdf" style="color: #f1792c;text-align: center;display: inherit;" download>Click here for resort rates</a>
+      </div>
+  <a name="CONTACT"></a>
+    </section>
+
+    <section class="newsletter1 contact-us-section">
+      <div class="container">
+        <h2>CONTACTS US</h2>
+          <p>Noah's Park Resort</p>
+          <p>Brgy San isidro, Rodriguez (Montalban) Rizal</p>
+          <p>0922 454 4410</p>
+          <p>8399 NOAH/8374 5031</p>
+          <p>noahleisurepark@gmail.com</p>
+          <a href="mailto:noahleisurepark@gmail.com" class="cta-mailto">Message Us</a>
+      </div>
+</section>
+<div class="clearfix"></div>
+<footer>
+    <div class="footer-container">
+      <img src="./img/LogoType_NPR_Logo.png">
+      <hr>
+      <a href="/">HOME</a>
+      <a href="#POOLS">POOLS</a>
+      <a href="#FACILITIES">FACILITIES</a>
+      <a href="#RATES">RATES</a>
+      <a href="#CONTACT">CONTACT US</a>
+    </div>
+    <br>
+    <a href="https://www.facebook.com/noahsparkresort/" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://www.instagram.com/noahsparkresort/" target="_blank" class="fa fa-instagram"></a>
+    <a href="https://www.youtube.com/channel/UC22luTq7M2hH7jIeWPkjjsQ" class="fa fa fa-youtube"></a>
+</footer>
+<center><span id="copyright">&copy COPYRIGHT 2020</span></center>
+<br><br>
+
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  var w = window.innerWidth;
+  var top = document.getElementById("top");
+  if(w < 670){
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      top.style.display = "block";
+    } else {
+      top.style.display = "none";
+    }
+  }
+  if(w > 670){
+    top.style.display = "none";
+  }
+}
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+
+}
+</script>
+
+  </body>
+</html>
