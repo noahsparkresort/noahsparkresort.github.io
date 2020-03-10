@@ -129,6 +129,10 @@ footer img
   float: right;
 }
 
+.newsletter1.facility h2{
+    margin-top: 120px;
+}
+
 
 /* Showcase */
 #showcase{
